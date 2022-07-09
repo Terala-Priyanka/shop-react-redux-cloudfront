@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Urls
-CloudFront URL : https://dx67fuibpxii2.cloudfront.net/
+CloudFront URL : https://dx67fuibpxii2.cloudfront.net/ 
 S3-website : https://cloudx-shop-react-redux-cloudfront.s3.amazonaws.com/index.html
 ## Available Scripts
 

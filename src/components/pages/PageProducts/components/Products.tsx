@@ -11,7 +11,6 @@ import {formatAsPrice} from "utils/utils";
 import AddProductToCart from "components/AddProductToCart/AddProductToCart";
 import axios from 'axios';
 import API_PATHS from "constants/apiPaths";
-import productList from "./productList.json";
 
 const useStyles = makeStyles((theme) => ({
   card: {
@@ -47,7 +46,6 @@ export default function Products() {
         const products = res.data.products;
         setProducts(products);
       });
-    setProducts(productList);
   }, [])
 
   return (
